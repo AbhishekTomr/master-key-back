@@ -3,11 +3,10 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email": "abhishek.tomar@bolster.ai",
+    "email": "abhishek.tomar12@bolster.ai",
     "password": "password123",
     "first_name": "Abhishek",
-    "last_name": "Tomar",
-    "user_name": "Abhishek.Tomr"
+    "last_name": "Tomar"
 }
 
 
