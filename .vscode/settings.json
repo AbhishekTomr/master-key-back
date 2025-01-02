@@ -26,6 +26,22 @@
       "database": "master_key",
       "username": "postgres",
       "password": "Abhishek2136"
+    },
+    {
+      "pgOptions": {
+        "ssl": {
+          "rejectUnauthorized": false,
+          "requestCert": true
+        }
+      },
+      "previewLimit": 50,
+      "server": "master-key.c7smmugu60og.us-east-2.rds.amazonaws.com",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "master_key_aws2",
+      "database": "master_key",
+      "username": "postgres",
+      "password": "Abhishek2136"
     }
   ]
 }
