@@ -1,0 +1,44 @@
+### user sign up
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "imabhishek111@gmail.com",
+    "password": "password123",
+    "user_name": "abhishek.tomr",
+    "first_name": "Web",
+    "last_name": "Dawgg"
+}
+
+
+### user login
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "identifier": "imabhishek111@gmail.com",
+    "password": "Abhishek@1996"
+}
+
+### verify username
+POST http://localhost:3000/auth/verify/username
+Content-Type: application/json
+
+{
+    "user_name": "abhishek.tomr"
+}
+
+
+### user logout
+GET http://localhost:3000/auth/logout
+
+### get user info
+GET http://localhost:3000/auth/get-user-info
+
+### verify a user
+GET http://localhost:3000/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzMwOTA0NTcxLCJleHAiOjE3MzA5OTA5NzF9.z56kKuilLmkilE8vEU7Kmlrfv8VGBunHvL_EPytr50A
+
+
+
+### user logout
+GET http://localhost:3000/auth/profile/1bIIoRRA5pcXMgiczFAlbSTvoy1jbt66L

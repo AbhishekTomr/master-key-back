@@ -1,0 +1,31 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "master_key",
+      "group": "master_key",
+      "database": "master_key",
+      "username": "postgres",
+      "password": "Abhishek@213"
+    },
+    {
+      "pgOptions": {
+        "ssl": {
+          "rejectUnauthorized": false,
+          "requestCert": false
+        }
+      },
+      "previewLimit": 50,
+      "server": "master-key.cjiwo8ywi93o.eu-north-1.rds.amazonaws.com",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "master_key_aws",
+      "database": "master_key",
+      "username": "postgres",
+      "password": "Abhishek2136"
+    }
+  ]
+}
